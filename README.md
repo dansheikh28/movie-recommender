@@ -157,23 +157,6 @@ COPY . .
 CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "main:app"]
 ```
 
-## 🧪 Development
-
-### Adding New Features
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes**
-4. **Test thoroughly**
-5. **Submit a pull request**
-
-### Code Style
-
-- Follow PEP 8 for Python code
-- Use meaningful variable names
-- Add comments for complex logic
-- Update documentation for new features
-
 ## 📊 Dataset
 
 The recommendation system uses a curated dataset containing:
@@ -209,7 +192,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [TMDB](https://www.themoviedb.org/) for the movie database API
 - [Flask](https://flask.palletsprojects.com/) for the web framework
 - [Scikit-learn](https://scikit-learn.org/) for machine learning tools
-
----
-
-Made with ⚡ for movie lovers everywhere!
